@@ -34,18 +34,15 @@ section{
     height: 100vh;
 }
 
-
-
-.contatos{
-    background-color: darkgoldenrod;
-    width: 100%;
-}
-
 footer{
     grid-area: content;
     place-self: end start;
     height: 100px;
     width: 100%;
-    background-color: powderblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+
 }
 
