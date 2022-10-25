@@ -10,6 +10,25 @@
     gap: 64px;
 }
     
+.description{
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.description__title{
+    font-size: 48px;
+    color: var(--primary-color);
+}
+
+.description__text{
+    font-size: 1.5rem;
+    width: 85%;
+    line-height: 100%;
+
+}
+
 .section__title{
     grid-area: title;
     background-color: chartreuse;
@@ -21,12 +40,41 @@
     color: transparent;
 }
 
-.description{
-    grid-area: description;
-    background-color: cornflowerblue;
-}
-
 .skills{
     grid-area: skills;
-    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
+
+.skills__title{
+    font-size: 48px;
+    color: var(--primary-color);
+}
+
+.skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.skills__icon{
+    width: 150px;
+    height: 150px;
+    background-color: var(--icon-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 2rem;
+}
+
+.skills__icon i{
+    font-size: 2.5rem;
+}
+
+.skills__icon span{
+    font-weight: 700;
+}
+
