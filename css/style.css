@@ -46,3 +46,9 @@ footer{
 
 }
 
+@media (max-width: 9999px){
+    .bars__icon{
+        visibility: hidden;
+    }
+    
+}
