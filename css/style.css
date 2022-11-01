@@ -35,20 +35,22 @@ section{
 }
 
 footer{
-    grid-area: content;
-    place-self: end start;
-    height: 100px;
+    height: 50px;
     width: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-   
+    background-color: #0005;
+    grid-area: content;
+    place-self: end center;
+    display: grid;
+    place-content: center;
+    border-top: 2px solid white;
+    font-size: 0.75rem;
+    font-style: italic;
 
 }
 
 @media (max-width: 9999px){
     .bars__icon{
-        visibility: hidden;
+        visibility: hi;
     }
     
 }
