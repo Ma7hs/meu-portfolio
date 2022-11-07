@@ -13,7 +13,7 @@
 </div>
 
 <div class="proposta__atividade">
-    <h2>Proposta da ativdade</h2>
+    <h2>Proposta da atividade</h2>
     <span>
         Atividade proposta pelo <a href="https://github.com/fernandoleonid"> Professor Leonid</a> com o objetivo de aprender mais sobre as tecnologias de HTML e CSS
     </span>
