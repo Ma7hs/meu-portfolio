@@ -11,6 +11,14 @@
         </li>
     </ol>
 </div>
+
+<div class="proposta__atividade">
+    <h2>Proposta da ativdade</h2>
+    <span>
+        Atividade proposta pelo <a href="https://github.com/fernandoleonid"> Professor Leonid</a> com o objetivo de aprender mais sobre as tecnologias de HTML e CSS
+    </span>
+</div>
+
 <div class="autor">
     <h2>Autor do Projeto:</h2>
     <a href="https://github.com/Ma7hs">
