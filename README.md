@@ -11,3 +11,9 @@
         </li>
     </ol>
 </div>
+<div class="autor">
+    <h2>Autor do Projeto:</h2>
+    <a href="https://github.com/Ma7hs">
+        <span>Matheus Siqueira</span>
+    </a>
+</div>
