@@ -1,14 +1,16 @@
-.menu{
-    display: flex;
-    gap: 72px;
-    font-size: 1.25rem;    
+.menu {
+  display: flex;
+  gap: 72px;
+  font-size: 1.25rem;
+  color: #7779;
 }
 
 .menu li {
-    border-bottom: 4px solid transparent;
-    transition: border-color .3s;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s;
 }
 
-li:hover{
- border-color:var(--primary-color);   
+.menu li:hover {
+  border-color: var(--primary-color);
+  color: #fff;
 }

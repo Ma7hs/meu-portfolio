@@ -1,27 +1,39 @@
-![Desktop](https://user-images.githubusercontent.com/87048682/200301900-5d2cfdf9-7551-48fc-a20f-a78a50f6b153.png)
-<div>
-    <h2>Portfolio</h2>
-    <span>Tecnologias utilizadas no projeto:</span>
-    <ol>
-        <li>
-            HTML
-        </li>
-        <li>
-            CSS
-        </li>
-    </ol>
-</div>
+# **PORTIFÓLIO VINICIUS NUNES - 2022**
 
-<div class="proposta__atividade">
-    <h2>Proposta da atividade</h2>
-    <span>
-        Atividade proposta pelo <a href="https://github.com/fernandoleonid"> Professor Leonid</a> com o objetivo de aprender mais sobre as tecnologias de HTML e CSS
-    </span>
-</div>
+![](./img/DESKTOP.png)
 
-<div class="autor">
-    <h2>Autor do Projeto:</h2>
-    <a href="https://github.com/Ma7hs">
-        <span>Matheus Siqueira</span>
-    </a>
-</div>
+## [Clique aqui](https://viniciusnunes137.github.io/portifolio/) para acessar o site
+
+## **SOBRE**
+
+- Site tipo do portifólio, onde foi construído com o intuito de divulgar a minha evolução como desenvolvedor web.
+
+- - Foi proposto esse projeto pelo professor de Linguagem de Marcação com a finalidade de replicar um projeto que desenvolvemos no FIGMA com a finalidade de compreender a @media para responsividade.
+
+
+
+## **TECNOLOGIAS APLICADAS**
+
+- HTML5
+- CSS3
+
+
+## **FERRAMENTAS**
+
+- VSCODE
+- GITHUB / GIT
+- FIGMA
+- FONT-AWESOME
+
+
+## **CONCEITOS APLICADOS**
+
+- DISPLAY (GRID)
+- GRID (AREA)
+- CSS PORCIONADO
+- @MEDIA
+
+## **AUTOR**
+
+- [VINICIUS NUNES](https://github.com/VINICIUSNUNES137)
+

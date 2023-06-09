@@ -1,141 +1,120 @@
-@media (max-width: 640px){
+@media (max-width: 640px) {
+  body {
+    width: 100%;
+  }
 
-    .menu{
-        display: none;
-    }
-     
-    .bars__icon{
-        visibility: visible;
-        font-size: 2rem;
-    }
+  footer {
+    font-size: 0.75rem;
+  }
 
-    header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 85%;
-    }
-    
-    header .bars__icon{
-        padding-left: 450px;
-    }
+  .copy-name {
+    font-size: 0.75rem;
+  }
 
-    
-    .home{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 150vh;
-    }
+  header {
+    max-width: 400px;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    .logo{
-        display: flex;
-        font-size: 2rem;
-        width: 300px;
-    }
-    .profile{
-        display: flex;
-        flex-direction: column;
-        font-size: 2.5rem;
-    }
+  .logo {
+    display: none;
+  }
 
-    .profile__foto{
-        width: 450px;
-        
-    }
+  header::before {
+    content: '</>';
+    font-size: 1.75rem;
+    color: var(--primary-color);
+  }
 
-    .home::before{
-        width: 100vw    ;
-    }
+  .home {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 48px;
+    width: 100%;
+    height: 100vh;
+  }
 
-    .profile__text{
-        display: grid;
-        justify-content: center;
-        font-size: 36px;
-        gap: 30px;
-    }
+  .profile__text {
+    font-size: 1.5rem;
+  }
 
-    .profile__name{
-        font-size: 5rem;
-        justify-content: center;
-        align-items: center;
-    }
+  .profile__name {
+    font-size: 3rem;
+  }
 
-    section .section__title{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        font-size: 9rem;
-    }
+  .profile__foto {
+    width: 70vw;
+  }
 
-    .description__skills{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 48px;
-        gap: 24px;
-    }
+  .section__tittle {
+    font-size: 3.5rem;
+  }
 
-    .description{
-        display: flex;
-        flex-direction: column;
-        font-size: 48px;
-        width: 500px;
-    }
+  .description__tittle {
+    font-size: 3rem;
+    text-align: center;
+  }
 
-    .skills{
-        padding-top: 32px;
-        font-size: 48px;
-        width: 350px;
-    }
+  .description__text {
+    text-align: justify;
+    width: 80vw;
+  }
 
-    .card-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .skills__tittle {
+    font-size: 3rem;
+    text-align: center;
+  }
 
-    .sobreMim{
-        height: 150vh;
-    }
+  .sobre-mim {
+    height: 2200px;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    gap: 100px;
+    padding: 0;
+  }
 
-    .projetos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 190vh;
-    }
+  .skills__container {
+    justify-content: center;
+  }
 
-    .contatos{
-        height: 100vh;
-    }
+  .projetos {
+    height: 1800px;
+    display: flex;
+  }
 
-    .contatos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;        
-    }
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
 
-    .contato__container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 12px;
-    }
+  .card-container img {
+    width: 350px;
+  }
 
-    .social__container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
 
-    .link__container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .contatos {
+    height: 800px;
+  }
+
+  .social-container {
+    flex-direction: column;
+  }
+}
+
+.copy {
+  font-size: 0.7rem;
+}
+
+.copy-name {
+  font-size: 0.7rem;
 }

@@ -1,67 +1,64 @@
-.contatos{
-    max-width: 1200px;
-    width: 100%;
-    display: grid;
-    grid-template-areas: 
-    "title title title"
-    "contato social link";
-    grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 2fr 1fr
+.contatos {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-areas:
+    'tittle tittle tittle'
+    'contato social link';
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
 }
 
-.contato__container{
-    margin-top: 50px;
-    grid-area: contato;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+.contato-container {
+  grid-area: contato;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.contato__container h3{
-    font-size: 1.5rem;
+.contato-container h3 {
+  font-size: 1.5rem;
 }
 
-.contato-item{
-    display: flex;
-    gap: 12px;
+.contato-item {
+  display: flex;
+  gap: 12px;
 }
 
-.contato-item__icon{
-    font-size: 1.5rem;
-}
-.social__container{
-    margin-top: 50px;
-    grid-area: social;
-    display: flex;
-    justify-content: center;
-    gap: 32px;
+.contato-item__icon {
+  font-size: 1.25rem;
 }
 
-.social{
-    width: 64px;
-    height: 64px;
-    background-color: var(--icon-color);
-    display: grid;
-    place-content: center;
-    font-size: 2rem;
-    transition: color .5s;
+.social-container {
+  grid-area: social;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
 }
 
-
-.social:hover{
-    color: var(--primary-color);
+.social:hover {
+  color: var(--primary-color);
 }
 
-
-.link__container{
-    margin-top: 50px;
-    grid-area: link;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    gap: 16px;
+.social {
+  width: 64px;
+  height: 64px;
+  background-color: var(--icon-color);
+  font-size: 2rem;
+  display: grid;
+  place-content: center;
+  transition: color 0.5s;
 }
 
-.link__container h3{
-    font-size: 2rem;
+.link-container {
+  grid-area: link;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.link-container h3 {
+  font-size: 1.5rem;
 }

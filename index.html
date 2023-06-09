@@ -1,179 +1,181 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/logo.css">
-    <link rel="stylesheet" href="./css/variaveis.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/section-title.css">
-    <link rel="stylesheet" href="./css/sobreMim.css">
-    <link rel="stylesheet" href="./css/projetos.css">
-    <link rel="stylesheet" href="./css/contato.css">
-    <link rel="stylesheet" href="./css/tablet.css">
-    <link rel="stylesheet" href="./css/mobile.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="website icon" type="svg" href="./img/user-tie-solid.svg">
-    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
-    
-    <title>Portfolio - Matheus Siqueira</title>
-</head>
-<body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio - Matheus Siqueira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/0efc108669.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/logo.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/section-tittle.css" />
+    <link rel="stylesheet" href="./css/sobre-mim.css" />
+    <link rel="stylesheet" href="./css/projetos.css" />
+    <link rel="stylesheet" href="./css/contato.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">Matheus Siqueira</div>
-        <i class="fas fa-bars bars__icon"></i>
-        <nav>
-            <ul class="menu">
-                <li><a href="#home">Início</a> </li>
-                <li><a href="#sobreMim">Sobre mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contatos">Contatos</a></li>
-            </ul>
-        </nav>
+      <div class="logo">Matheus Siqueira</div>
+      <a href="#">
+        <i class="fas fa-bars navigation-icon"></i>
+      </a>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#sobre-mim">Sobre Mim</a>
+          </li>
+
+          <li>
+            <a href="#projetos">Projetos</a>
+          </li>
+          <li>
+            <a href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="home" id="home">
-            <div class="profile"><img  src="./img/minhaFoto.png" alt="fotoPerfil" class="profile__foto">
-                <div class="profile__text">
-                    <span class="profile__text">Olá, meu nome é</span>
-                    <h1 class="profile__name">Matheus Siqueira</h1>
-                    <span class="profile__text">e sou Desenvolvedor Front-End</span>
-                </div>
-            </div>
-        </section>
-        <section class="sobreMim" id="sobreMim">
-            <h2 class="section__title">Sobre Mim</h2>
-            <div class="description__skills">
-                <div class="description">
-                    <h3 class="description__title"> Quem sou? </h3>
-                    <p class="description__text"> 
-                        Sou iniciante na área de criação e manutenção de sites, 
-                        tenho conhecimento em prototização e designer. 
-                        Sempre pensando na experiência do usuário 
-                        ao utilizar nosso serviço!
-                        Sou apaixonado pelo mundo digital e principalmente
-                        por desenvolvimento, sempre procurando inspiração
-                        nos meus colegas de trabalho e no mundo que me rodeia</p>
-                </div>
-                <div class="skills">
-                    <h3 class="skills__title">Skills</h3>
-                    <ul class="skills__container">
-                        <li class="skills__icon">
-                            <i class="fab fa-html5"></i>
-                            <span>HTML</span>
-                        </li>
-                        <li class="skills__icon">
-                            <i class="fab fa-css3-alt"></i>   
-                            <span>CSS</span>
-                        </li>
-                        <li class="skills__icon">
-                            <i class="fab fa-js"></i>
-                            <span>JS</span>
-                        </li>
-                        <li class="skills__icon">
-                            <i class="fab fa-python"></i>
-                            <span>PYTHON</span>
-                        </li>
-                        <li class="skills__icon">
-                            <i class="fab fa-java"></i>
-                            <span>JAVA</span>
-                        </li>
-                        <li class="skills__icon">
-                            <i class="fab fa-github"></i>
-                            <span>GITHUB</span>
-                        </li>
-    
-                    </ul class="skills__icons">
-                </div>
-            </div>
-        </section>
-        <section class="projetos" id="projetos">
-            <h2 class="section__title">Projetos</h2>
-            <div class="card-container">
-                <a href="https://ma7hs.github.io/landing-page-pikachu/" target="_blank" class="card">
-                    <img src="./img/Rectangle 4.png" alt="Pikachu">
-                </a>
-                <a href="https://ma7hs.github.io/pageGandis/" target="_blank" class="card">
-                    <img src="./img/Rectangle 2.png" alt="NFTGandiS">
-                </a>
-                <a href="https://ma7hs.github.io/headphonesRazer/#" target="_blank" class="card">
-                    <img src="./img/Rectangle 3.png" alt="Headfone Razer Purple">
-                </a>
-            </div>
-        </section>
-        <section class="contatos" id="contatos">
-            <h2 class="section__title">Contatos</h2>
-            <ul class="contato__container">
-                <li>
-                    <h3>Contatos</h3>
-                </li>
-                <li>
-                    <div class="contato__item">
-                        <i class="fas fa-phone-alt contato-item__icon"></i>
-                        <span class="contato-item__text">(11) 40028922</span>
-                    </div class="contato__item">
-                </li>
-                <li>
-                    <div class="contato__item">
-                        <i class="fas fa-envelope contato-item__icon"></i>
-                        <span class="contato-item__text">Matheus.siqueira100@gmail.com</span>
-                    </div class="contato__item">
-                </li>
-                <li>
-                    <div class="contato__item">
-                        <a href="https://api.whatsapp.com/send?phone=5511972690379&text=Ol%C3%A1%20Matheus!%20Gostei%20do%20seu%20site">
-                            <i class="fab fa-whatsapp contato-item__icon"></i>
-                            <span class="contato-item__text">(11) 9 72690379</span></a>
-                    </div class="contato__item">
-                </li>
-            </ul>
-            <ul class="social__container">
-                <li class="social">
-                   <a href="https://www.instagram.com/ma7hs/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                </li>
-                <li class="social">
-                    <a href="https://twitter.com/siqueirazx_">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="social">
-                    <i class="fab fa-linkedin"></i>
-                </li>
-                <li class="social">
-                    <a href="https://github.com/Ma7hs">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-            <ul class="link__container">
-                <li>
-                    <h3>Links</h3>
-                </li>
-                <li class="nav__bar">
-                    <a href="#home">Ínicio</a>
-                </li>
-                <li class="nav__bar">
-                    <a href="#sobreMim">Sobre Mim</a>
-                </li>
-                <li class="nav__bar">
-                    <a href="#projetos">Projetos</a>
-                </li>
-                <li class="nav__bar">
-                    <a href="#contatos">Contatos</a>
-                </li>
-            </ul>
-        </section>
+      <a href="#" class="voltar">
+        <i class="fas fa-chevron-circle-up"></i>
+      </a>
+      <section class="home" id="home">
+        <div class="profile">
+          <img
+            class="profile__foto"
+            src="./img/1675989972775.jpg"
+            alt="foto"
+          />
+          <div>
+            <span class="profile__text">Olá, meu nome é</span>
+            <h1 class="profile__name">Matheus Siqueira</h1>
+            <span class="profile__text">e sou desenvolvedor Front-end</span>
+          </div>
+        </div>
+      </section>
+      <section class="sobre-mim" id="sobre-mim">
+        <h2 class="section__tittle">SOBRE MIM</h2>
+        <div class="description">
+          <h3 class="description__tittle">QUEM SOU?</h3>
+          <p class="description__text">
+            Sou iniciante na área de criação e manutenção de sites, tenho
+            conhecimento em prototipação e designer sempre pensando na
+            experiência do usuário. Sou apaixonado pelo mundo digital e
+            principalmente desenvolvimento, sempre procurando inspiração nos
+            meus colegas de trabalho e no mundo que me rodeia.
+          </p>
+        </div>
+        <div class="skills">
+          <h3 class="skills__tittle">SKILLS</h3>
+          <ul class="skills__container">
+            <li class="skills__icon">
+              <i class="fab fa-html5"></i>
+              <span>HTML</span>
+            </li>
+            <li class="skills__icon">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS</span>
+            </li>
+            <li class="skills__icon">
+              <i class="fab fa-js"></i>
+              <span>JS</span>
+            </li>
+            <li class="skills__icon">
+              <i class="fab fa-figma"></i>
+              <span>FIGMA</span>
+            </li>
+            <li class="skills__icon">
+              <i class="fab fa-github"></i>
+              <span>GITHUB</span>
+            </li>
+            <li class="skills__icon">
+              <i class="fab fa-python"></i>
+              <span>PYTHON</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="projetos" id="projetos">
+        <h2 class="section__tittle">PROJETOS</h2>
+        <div class="card-container">
+          <a
+            class="card"
+            href="https://ma7hs.github.io/projetoIntegrado-LionSchool/frontend/index.html"
+            target="_blank"
+          >
+            <img class="project__image" src="./img/card-lionschool.png" alt="Lion School"/>
+          </a>
+          <a
+            class="card"
+            href="https://rawgstore-siqueira.vercel.app/"
+            target="_blank"
+          >
+            <img class="project__image" src="./img/card-raewg.png" alt="Rawg Store" />
+          </a>
+          <a
+            class="card"
+            href="https://ma7hs.github.io/Calendar/"
+            target="_blank"
+          >
+            <img class="project__image" src="./img/card-calendar.png" alt="Calendar" />
+          </a>
+          <a
+            class="card"
+            href="https://ma7hs.github.io/onePage/"
+            target="_blank"
+          >
+            <img class="project__image" src="./img/card-onepage.png" alt="One Page" />
+          </a>
+        </div>
+      </section>
+      <section class="contatos" id="contato">
+        <h2 class="section__tittle">CONTATOS</h2>   
+        </ul>
+        <ul class="social-container">
+          <li class="social">
+            <a
+              href="https://www.linkedin.com/in/matheus-s-90bb04202/"
+              target="_blank"
+              ><i class="far fa-envelope"></i
+            ></a>
+          </li>
+          <li class="social">
+            <a href="https://github.com/Ma7hs" target="_blank">
+              <i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li class="social">
+            <a href="https://www.instagram.com/Ma7hs" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer>Todos os direitos reservados 2022 | Desenvolvido por Matheus Siqueira </footer>     
-</body>
+    <footer>
+      <span class="copy">
+        Todos os direitos reservados 2022 | Desenvolvido por
+      </span>
+      <a href="https://github.com/Ma7hs" target="_blank"
+        ><span class="copy-name">Matheus Siqueira </span></a
+      >
+    </footer>
+    <script src="./mobile-navbar.js"></script>
+
+  </body>
 </html>
